@@ -18,16 +18,24 @@ const Home = () => {
         transitionTime={500} 
       >
         <div>
-          <img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1" />
+          <img src="https://assets.imgix.net/tutorials/forest4.webp" alt="Slide 1" />
           <p className="legend">Slide 1</p>
         </div>
         <div>
-          <img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Slide 2" />
+          <img src="https://assets.imgix.net/tutorials/mountain2.webp" alt="Slide 2" />
           <p className="legend">Slide 2</p>
         </div>
         <div>
-          <img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 3" />
+          <img src="https://assets.imgix.net/tutorials/forest2.webp" alt="Slide 3" />
           <p className="legend">Slide 3</p>
+        </div>
+        <div>
+          <img src="https://assets.imgix.net/tutorials/mountain3.webp" alt="Slide 4" />
+          <p className="legend">Slide 4</p>
+        </div>
+        <div>
+          <img src="https://assets.imgix.net/tutorials/river1.webp" alt="Slide 5" />
+          <p className="legend">Slide 5</p>
         </div>
       </Carousel>
     </div>
